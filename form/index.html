@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn how to use Form</title>
+</head>
+<body>
+<h1>Learn Form Basic</h1>
+<form action="api/member-new" method="post">
+  <!--  Input text-->
+  <label for="name-input">Họ và tên: <label>
+    <input id="name-input"
+           name="name"
+           required
+           type="text"
+           placeholder="mời nhập tên của bạn"
+           title="name">
+    <br>
+    <label for="birthday-input">Ngày tháng năm sinh: <label>
+      <input id="brithday-input"
+             name="birthday"
+             title="birthday"
+             type="date"
+             required>
+      <br>
+      <label for="phone-input">Số điện thoại: </label>
+      <input id="phone-input"
+             maxlength="9"
+             name="phone-number"
+             title="phone-number"
+             type="number">
+      <br>
+      <label for="password-input" placeholder="mời bạn nhập số Điện thoại">Mật khẩu: </label>
+      <input type="password"
+             title="password"
+             name="password"
+             id="password-input">
+      <!--      Text area-->
+      <br>
+      <label for="comment">Nhập bình luận</label>
+      <br>
+      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+
+      <!--    Drop down list  -->
+      <br>
+      <select name="category" id="category">
+        <option value="apple">Táo</option>
+        <option value="orange">cam</option>
+        <option value="coconut">Dừa</option>
+        <option value="lemon">Chanh</option>
+      </select>
+      <br>
+      <button type="submit">gửi đi</button>
+      <button type="reset">xóa thông tin</button>
+</form>
+
+</body>
+</html>
