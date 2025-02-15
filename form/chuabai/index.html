@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài Tập Form đăng nhập</title>
+</head>
+<body>
+<form action="api/member-new" method="post">
+  <h2>Đăng nhập</h2>
+  <label for="name-input">First Name: <sup>*</sup></label>
+  <input id="name-input" name="first-name" type="text" placeholder="e.g.,John">
+  <ul>
+    abc
+    <li>
+      avawdawdawd
+    </li>
+  </ul>
+  <p>adawdawdawdawd</p>
+  <a href=""><h1>dawdawdawdawdawd</h1></a>
+  <br>
+  <label for="last-name">Last Name<sup>*</sup></label>
+  <br>
+  <input id="last-name" name="last-name" type="text" placeholder="Smith">
+  <br>
+  <label for="input-email">Company email<sup>*</sup></label><br>
+  <input type="email" id="input-email" name="email" placeholder="name@company.com">
+  <br>
+  <label for="phone-number">Phone number<sup>*</sup></label><br>
+  <input type="number" id="phone-number" name="phone-number"
+         placeholder="123-456-7890">
+  <br>
+  <label for="company-size">Company size<sup>*</sup></label><br>
+  <select name="company-size" id="company-size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="Big">Big</option>
+  </select>
+  <br>
+  <label for="comment">What would you like to discuss?<sup>*</sup></label><br>
+  <textarea
+    placeholder="Tell us about your team and provide some details about a project or process you would like to track in Asana."
+    name="comment" id="comment" cols="30" rows="10"></textarea>
+  <br>
+  <input type="checkbox" name="privacy" id="checkbox">
+  <label for="checkbox">By checking the box and clicking "Submit", you are agreeing to Asana's
+    <a href="#">Privacy Statement</a>
+  </label>
+  <br>
+  <button type="submit">Submit</button>
+  <button type="reset">xóa thông tin</button>
+</form>
+</body>
+</html>

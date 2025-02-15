@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+a {
+  text-decoration: underline boder 1px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
