@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  border: red solid 10px;
+  background-color: darkkhaki;
+  height: 100vh; /*vh == view port => chiều cao của toàn màn hình*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: calc(100% / 10);
+  object-fit: contain;
+  border: red solid 2px;
+  padding: 20px 20px;
+  margin: 10px;
+  background-color: white;
+  transition: ease-in 0.8s;
+}
+
+.image:hover {
+  transform: scale(2);
+  cursor: copy;
+}
